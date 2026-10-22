@@ -2,7 +2,7 @@
 
 **Paket adı:** `sicaklik_izleyici_py`  
 **Hazırlayan:** Kadriye Nur Metin  
-**Ders:** Robotik  
+**Ders:** Robotiğe Giriş
 **Ortam:** ROS 2 Humble Hawksbill, Ubuntu 22.04.5 LTS, Python 3.10.12
 
 ## Özet
