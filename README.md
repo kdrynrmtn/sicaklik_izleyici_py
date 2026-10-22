@@ -319,8 +319,7 @@ Komutun yapısı `ros2 run <paket_adı> <komut_adı>` biçimindedir; komut adı 
 
 ## Sistemin Dışarıdan Gözlemlenmesi
 
-İki düğüm çalışırken üçüncü bir terminalde aşağıdaki komutlar çalıştırılmıştır:
-
+İki düğüm çalışırken üçüncü bir terminalde aşağıdaki komutlar çalıştırılmıştır. Komutların terminal çıktılarını Şekil 17, detaylı çıakrımlarını ise Tablo 5'e bakarak inceleyebilirsiniz.
 ```bash
 ros2 node list
 ros2 topic info /sicaklik
