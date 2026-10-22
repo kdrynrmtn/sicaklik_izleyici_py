@@ -532,7 +532,7 @@ sicaklik_izleyici_py/
 # 1) Depoyu çalışma alanına klonlayın
 mkdir -p ~/ros2_ws/src
 cd ~/ros2_ws/src
-git clone https://github.com/KULLANICI_ADI/sicaklik_izleyici_py.git
+git clone https://github.com/kdrynrmtn/sicaklik_izleyici_py.git
 
 # 2) Derleyin (önce ROS 2 ortamı kaynaklanmalıdır)
 source /opt/ros/humble/setup.bash
