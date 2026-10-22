@@ -339,17 +339,6 @@ ros2 topic hz /sicaklik
 | `ros2 topic info /sicaklik` | Tür `std_msgs/msg/Float32`; `Publisher count: 1`; `Subscription count: 1` | Konu ve tür doğrudur; bir yayıncı ile bir abone eşleşmiştir. |
 | `ros2 topic hz /sicaklik` | `average rate: 1.000`; son pencerede (13 örnek) `min: 0.999 s`, `max: 1.001 s`, `std dev: 0.00040 s` | Yayın periyodu 1 s'dir; sapma milisaniyenin altındadır. "Her saniye" gereksinimi ölçülerek doğrulanmıştır. |
 
-`ros2 topic hz` komutu sonlandırılana kadar çalıştığından, Şekil 17'de aynı satırlara yazılmış olan `ros2 interface show` komutu çalışmamıştır. Mesaj türünün tanımı ayrıca sorgulanmıştır:
-
-```bash
-ros2 interface show std_msgs/msg/Float32
-```
-
-![Şekil 18](docs/images/sekil18_interface_show.png)
-
-*Şekil 18. `std_msgs/msg/Float32` türünün tanımı.*
-
-Çıktı, türün tek bir `float32 data` alanından oluştuğunu ve Foxy sürümünden beri kullanımdan kaldırılmış (deprecated) bir örnek mesaj olduğunu göstermektedir.
 
 ## Hesaplama Grafiği (`rqt_graph`)
 
